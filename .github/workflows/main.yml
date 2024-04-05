@@ -22,6 +22,6 @@ jobs:
       - name: Show directory after checkout
         run: ls -l
       - name: Show environment variables
-        run:
+        run: |
           echo "Hello $MY_ENV"
           echo "Hello $GITHUB_ACTOR"
